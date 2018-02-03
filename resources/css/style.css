@@ -1,0 +1,13 @@
+#header{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.nav span{
+  display: inline-block;
+}
