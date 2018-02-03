@@ -1,13 +1,28 @@
-#header{
+.header{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   display: flex;
-  justify-content: space-around;
   align-items: center;
-
+  justify-content: space-around;
+  border-bottom: 1px solid black;
 }
 
-.nav span{
+#logo{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.navcont{
+  margin-left: auto;
+  margin-right: 10px;
   display: inline-block;
+}
+
+.navcont span{
+  margin: 0 20px;
+}
+
+h1{
+  color: Aquamarine;
 }
