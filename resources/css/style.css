@@ -56,7 +56,7 @@ h3{
 
 .column {
   position: relative;
-  top: 120px;
+  top: 100px;
   display: flex;
   flex-direction: row;
   border: 1px solid blue;
@@ -110,5 +110,49 @@ h3{
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
+  color: white;
+}
+
+.news4 {
+  flex-basis: 300px;
+  background-image: url('../image/img-story-2.png');
+}
+
+p {
+font-family: Georgia;
+font-size: 17px;
+color: black;
+}
+
+.news4 p{
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+}
+
+.news6 {
+  flex-basis: 300px;
+  background-image: url('../image/img-story-3.png');
+}
+
+.news6 p{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.news8{
+  background-image: url('../image/img-story-1.png');
+  flex-basis: 300px;
+}
+
+.news8 p{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
   color: white;
 }
