@@ -1,4 +1,10 @@
 
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+
 /* header */
 
 .header{
@@ -9,6 +15,13 @@
   align-items: center;
   justify-content: space-around;
   border-bottom: 1px solid black;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  z-index: 5;
+  background-color: white;
+  margin: 0 auto;
+
 }
 
 
@@ -16,7 +29,7 @@
   display: flex;
   width: 180px;
   justify-content: space-around;
-  margin: 20px 20px;
+  margin: 0 20px;
 }
 
 .navcont{
@@ -42,6 +55,8 @@ h3{
 }
 
 .column {
+  position: relative;
+  top: 120px;
   display: flex;
   flex-direction: row;
   border: 1px solid blue;
@@ -85,3 +100,15 @@ h3{
 }
 
 /* back ground images */
+
+.news1 {
+  flex-basis: 300px;
+  background-image: url('../image/img-story-main.png');
+}
+
+.news1 h2{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
